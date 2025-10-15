@@ -8,6 +8,7 @@ Out-GridView or OGV, this will output into a separate window that you can search
 Example Command: Get-Command | OGV (This will show all available commands in your powershell session in the grid view)
 ```
 
+
 ```
 Today's Powershell tip is:
  
@@ -15,6 +16,7 @@ Get-Help, (The standard cmdlet format is Verb-Noun) this will display help for a
  
 Example Command: Get-Help Get-Member -showwindow
 ```
+
 
 ```
 Today's Powershell tip is:
@@ -31,10 +33,12 @@ PowerShell
     $myObject | ConvertTo-Json
 ```
 
+
 ```
 Today's Powershell tip is:
 CTRL + R in the powershell terminal, you can then search your previous commands, especially if you use UVPy and are looking for a command you used previously. If you want to find the next instance of your search, continue pressing CTRL + R after entering your search. Pressing CTRL + S will go backwards one option (or forward depending on how you look at it)
 ```
+
 
 ```
 Today's Powershell tip is:
@@ -44,6 +48,7 @@ Set-Clipboard, You can use this to add the output of your statement to your clip
 Example: Get-ChildItem |OGV -passthru | Set-Clipboard
 This will Get-ChildItem (the alias for this command is ls or dir), then output to gridview, the passthru flag will allow you to select one or multiple items from the grid view. After pressing "Ok" it will add your selection to the clipboard
 ```
+
 
 ```
 Today's Powershell tip is:
@@ -55,6 +60,7 @@ Example: Here is how you would declare a new array list instead of an array
 $myArrayList = New-Object -TypeName System.Collections.ArrayList
 ```
 
+
 ```
 Today's Powershell tip is:
  
@@ -63,6 +69,7 @@ Get-Content, This cmdlet retrieves the content of an item at a specified path su
 Example command: Get-Content -Path "C:\Path\To\YourFile.txt"
  
 ```
+
 
 ```
 Today's Powershell Tip is:
@@ -76,6 +83,7 @@ If you would like the date format as dd/mm/yyyy, you can use the following comma
 (Get-Date).AddDays(-90).ToString("MM/dd/yyyy")
  
 ```
+
 
 ```
 Today's Powershell tip of the day is:
