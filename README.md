@@ -1,8 +1,4 @@
 # PowerShell-Tips
-PowerShell Tips
-
-# PowerShell-Tips
-PowerShell Tips
 
 ```
 Today's Powershell tip is:
