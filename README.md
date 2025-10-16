@@ -90,3 +90,9 @@ Today's Powershell tip of the day is:
  
 You can drag a file or folder from the File Explorer into PowerShell to get the full path!
 ```
+
+```
+Today's Powershell tip of the day is:
+ 
+ls env:, this will let you see all of the environment variables on your system
+```
