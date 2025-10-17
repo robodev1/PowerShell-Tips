@@ -98,3 +98,15 @@ ls env:, this will let you see all of the environment variables on your system
  
 To view the value of one of the environment variables use, $env:PATH. You can also wrap the text better for the first command using ls env: |Format-table -wrap -autosize
 ```
+
+```
+Today's Powershell tip of the day is:
+
+
+
+Select-Object *, When an object is written to the console, PowerShell by default hides many of its properties. This is to make the output easier to read, but it can hide many useful properties that you may not know exist.
+
+
+
+Example Command: Get-Process | Select-Object -First 1 * vs Get-Process | Select-Object -First 1. The * will give many more properties
+```
