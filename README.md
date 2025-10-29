@@ -110,3 +110,17 @@ Select-Object *, When an object is written to the console, PowerShell by default
 
 Example Command: Get-Process | Select-Object -First 1 * vs Get-Process | Select-Object -First 1. The * will give many more properties
 ```
+
+```
+Todays' Powershell Tip of the day is: 
+ 
+Split long lines of code into multiple lines using backticks 
+
+
+PowerShell
+Get-ChildItem `
+    -Path 'C:\' `
+    -Recurse `
+    -File `
+    -Filter '*.txt'
+```
